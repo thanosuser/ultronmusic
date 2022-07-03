@@ -32,20 +32,20 @@ async def _human_time_duration(seconds):
     
    
 
-@Client.on_message(command("start") & filters.private & ~filters.edited)
+@Client.on_message(command("music") & filters.private & ~filters.edited)
 async def start_(client: Client, message: Message):
     await message.reply_photo(
         photo=f"{START_PIC}",
         caption=f"""**A Telegram Music Bot Based Mongodb.
  Add Me To Ur Chat For and Help and And Support Click On Buttons  ...
 💞  These Features A.I Based 
-Powered By [ᴢᴀɪᴅ ʙᴏᴛꜱ](t.me/superior_bots) ...
+Powered By [heartbeatbots](t.me/heartbeat_of) ...
 **""",
     reply_markup=InlineKeyboardMarkup(
             [
                 [
                     InlineKeyboardButton(
-                        "➕ ❰ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ❱ ➕", url=f"https://t.me/{BOT_USERNAME}?startgroup=true"
+                        " ❰ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ❱ ", url=f"https://t.me/{BOT_USERNAME}?startgroup=true"
                     )
                 ],
                 [
@@ -53,7 +53,7 @@ Powered By [ᴢᴀɪᴅ ʙᴏᴛꜱ](t.me/superior_bots) ...
                         "ʜᴇʟᴘ & ᴄᴏᴍᴍᴀɴᴅꜱ", url=f"https://t.me/SUPERIOR_BOTS/160"
                     ),
                     InlineKeyboardButton(
-                        "ꜱᴏᴜʀᴄᴇ ᴄᴏᴅᴇ", url="https://github.com/ITZ-ZAID/Zaid-Vc-Player"
+                        "owner", url="t.me/thanosuser"
                     )
                 ],
                 [
@@ -70,11 +70,11 @@ Powered By [ᴢᴀɪᴅ ʙᴏᴛꜱ](t.me/superior_bots) ...
     )
     
     
-@Client.on_message(commandpro(["/start", "/alive"]) & filters.group & ~filters.edited)
+@Client.on_message(commandpro(["/music", "/alive"]) & filters.group & ~filters.edited)
 async def start(client: Client, message: Message):
     await message.reply_photo(
-        photo=f"https://telegra.ph/file/dd9ca2b2122dd68ffab0e.png",
-        caption=f"""Thanks For Adding Me To Ur Chat, For Any Query U Can Join Our Support Groups 🔥♥️""",
+        photo=f"https://telegra.ph/file/98f3748ab9cc574c92bfd.jpg",
+        caption=f"""Thanks For Adding ultron To Ur Chat, For Any Query U Can Join Our Support Groups 🔥♥️""",
         reply_markup=InlineKeyboardMarkup(
             [
                 [
@@ -86,16 +86,16 @@ async def start(client: Client, message: Message):
     )
 
 
-@Client.on_message(command(["repo", "source"]) & filters.group & ~filters.edited)
+@Client.on_message(command(["reposs", "sources"]) & filters.group & ~filters.edited)
 async def help(client: Client, message: Message):
     await message.reply_photo(
-        photo=f"https://telegra.ph/file/92688f2c44a35ba673c23.png",
-        caption=f"""Here Is The Source Code Fork And Give Stars ✨""",
+        photo=f"https://telegra.ph/file/98f3748ab9cc574c92bfd.jpg",
+        caption=f"""ultron repo is private""",
         reply_markup=InlineKeyboardMarkup(
             [
                 [
                     InlineKeyboardButton(
-                        " ʀᴇᴘᴏ ⚒️", url=f"https://github.com/ITZ-ZAID/Zaid-Vc-Player")
+                        " ʀᴇᴘᴏ ⚒️", url=f"t.me/thanosuser")
                 ]
             ]
         ),
